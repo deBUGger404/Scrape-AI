@@ -15,8 +15,7 @@
 1. Clone the repository or install via pip (if available in PyPi):
 
 ```bash
-git clone https://github.com/yourusername/scrapeAI.git
-cd scrapeAI pip install -r requirements.txt
+pip install scrapeAI
 ```
 
 2. **Selenium WebDriver Dependencies**:
