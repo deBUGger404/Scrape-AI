@@ -1,15 +1,26 @@
-# setup.py
-
 from setuptools import setup, find_packages
 
 setup(
-    name="rk_mylib_test",  # The name of your library
-    version="0.1",
-    packages=find_packages(),  # Automatically find packages in the directory
-    install_requires=[],  # External libraries your package depends on
-    author="Your Name",
-    author_email="your_email@example.com",
-    description="A simple math library for addition and subtraction",
-    url="https://github.com/your_username/mymathlib",  # Optional: URL to your repository
-    license="MIT",
+    name='scrapeAI',
+    version='0.1.0',
+    description='A Python library to scrape web data using LLMs and Selenium',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    author='Rakesh Kumar',
+    author_email='rakeshparmuwal1436@example.com',
+    url='https://github.com/deBUGger404/Scrape-AI',
+    packages=find_packages(),
+    install_requires=[
+        'selenium',
+        'beautifulsoup4',
+        'anthropic',
+        'openai',
+        'google-generativeai'
+    ],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.8',
 )
