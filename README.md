@@ -44,10 +44,10 @@ from scrapeAI import WebScraper
 
 config = {
     "llm": {
-        "api_key": 'db2bf7f7f33549419cc37a3391e7ab31',
-        "model": "azure-openai/test-quant-gpt-4o",
-        "api_version": "2024-02-01",
-        "endpoint": 'https://rakesh-openai-instance.openai.azure.com/'
+        "api_key": '<Azure OpenAI API KEY>',
+        "model": "<Azure OpenAI Deplyement Name>",
+        "api_version": "<Azure Open AI API Version>",
+        "endpoint": '<Azure OpenAI Endpoint Name>'
     },
     "verbose": False,
     "headless": False,
@@ -62,6 +62,32 @@ result = scraper.invoke()
 
 # Output the result
 print(result)
+```
+The output will be a json as the following:
+```markdown
+[
+  {
+    'library': 'genai',
+    'installation_command': 'pip install genai'
+  },
+  {
+    'library': 'bookworm_genai',
+    'installation_command': 'pip install bookworm_genai'
+  },
+  {
+    'library': 'ada-genai',
+    'installation_command': 'pip install ada-genai'
+  },
+  ...{
+    'library': 'semantix-genai-serve',
+    'installation_command': 'pip install semantix-genai-serve'
+  },
+  {
+    'library': 'platform-gen-ai',
+    'installation_command': 'pip install platform-gen-ai'
+  },
+  
+]
 ```
 
 ### Configuration Options
