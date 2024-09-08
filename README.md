@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Scrape-AI
 scrapeAI is a Python library for intelligent web scraping using LLMs (OpenAI, Anthropic, Google, Azure) and Selenium. It dynamically fetches data based on user queries, enabling agent-like scraping with configurable models, modular design, and support for real-time data extraction from dynamic websites.
 =======
@@ -126,7 +125,7 @@ License
 
 ---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ### Selenium Dependencies:
 
@@ -141,5 +140,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Firefox**: [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 - **Safari**: [WebDriver for Safari](https://webkit.org/blog/6900/webdriver-support-in-safari-10/)
 
-This enhanced README now includes the Selenium driver setup instructions, making it easier for users to understand the dependencies required for the library.
->>>>>>> 234dc27 (first commit)
+
+<div style="text-align: center;">
+  <a href="https://github.com/deBUGger404" target="_blank">
+    <img src="https://raw.githubusercontent.com/deBUGger404/Python-Course-From-Beginner-to-Expert/main/Data/happy_code.webp" alt="Happy Code" style="width:200px; border-radius:12px;">
+  </a>
+</div>
