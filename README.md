@@ -101,20 +101,20 @@ Project Structure
 
 ---
 
-The project is organized as follows: markdown Copy code
+The project is organized as follows: 
 
 ```markdown
 ├── README.md
 ├── scrapeAI/
-│ ├── **init**.py
+│ ├── __init__.py
 │ ├── core/
-│ │ ├── **init**.py
+│ │ ├── __init__.py
 │ │ ├── base_scraper.py
 │ │ ├── direct_scraper.py
 │ │ ├── scraper_factory.py
 │ │ └── search_scraper.py
 │ ├── llms/
-│ │ ├── **init**.py
+│ │ ├── __init__.py
 │ │ ├── anthropic_llm.py
 │ │ ├── azure_openai_llm.py
 │ │ ├── base.py
@@ -122,7 +122,7 @@ The project is organized as follows: markdown Copy code
 │ │ ├── llm_factory.py
 │ │ └── openai_llm.py
 │ ├── utils/
-│ │ ├── **init**.py
+│ │ ├── __init__.py
 │ │ ├── html_utils.py
 │ │ └── logging.py
 │ └── web_scraper.py
