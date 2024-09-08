@@ -1,0 +1,5 @@
+selenium
+beautifulsoup4
+anthropic
+openai
+google-generativeai
