@@ -98,7 +98,6 @@ The output will be a json as the following:
 - **prompt**: The natural language query to ask the LLM and fetch relevant content from the page.
 
 Project Structure
-
 ---
 
 The project is organized as follows: 
@@ -138,13 +137,11 @@ The project is organized as follows:
 - **utils/**: Utility functions for HTML parsing and logging.
 
 Contributing
-
 ---
 
 We welcome contributions! If you'd like to improve the project, feel free to fork the repository and submit a pull request. Please follow the existing code structure and ensure that your contribution includes proper tests.
 
 License
-
 ---
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
