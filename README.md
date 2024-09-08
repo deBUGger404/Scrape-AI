@@ -1,6 +1,6 @@
 # Scrape-AI
 
-`scrapeAI` is a Python library designed to intelligently scrape data from websites using a combination of LLMs (Large Language Models) and Selenium for dynamic web interactions. It allows you to configure the library to use a specific LLM (such as OpenAI, Anthropic, Azure OpenAI, etc.) and fetch data based on a user query from websites in real-time. The core functionality enables the agent-like scraping capabilities by leveraging natural language queries.
+`Scrape-AI` is a Python library designed to intelligently scrape data from websites using a combination of LLMs (Large Language Models) and Selenium for dynamic web interactions. It allows you to configure the library to use a specific LLM (such as OpenAI, Anthropic, Azure OpenAI, etc.) and fetch data based on a user query from websites in real-time. The core functionality enables the agent-like scraping capabilities by leveraging natural language queries.
 
 ## Key Features
 
